@@ -35,6 +35,7 @@ int main(void) {
 	list_delete_node(&l, ln);
 	printf("\n");
 	list_print(&l, stdout);
+	list_delete_list(&l);
 
 	return 0;
 }
